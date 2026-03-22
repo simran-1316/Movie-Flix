@@ -28,3 +28,12 @@ export const movies = [
             'https://m.media-amazon.com/images/M/MV5BMGQ1ZGZmNTAtM2MyYi00NmZhLTkwYmYtNTNlZDRhMzU2ZTgwXkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg',
     },
 ];
+
+export const url = 'https://api.themoviedb.org/3/movie/';
+export const options = {
+  method: 'GET',
+  headers: {
+    accept: 'application/json',
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMWE1MDA2ZDIzZjc5YjRhM2UwNTk0NzJiODEyMzJlNyIsIm5iZiI6MTc3Mjg3OTUyOC4zNDA5OTk4LCJzdWIiOiI2OWFiZmVhODRlZWIyOTNhY2JjYTk2NjUiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.CUBbmhMZvT5ZHl04efy34i6iCHWG0HysUchvPzTx_8E'
+  }
+};
